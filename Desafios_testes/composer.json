@@ -1,0 +1,17 @@
+{
+    "name": "sad/fasfdas",
+    "autoload": {
+        "psr-4": {
+            "Sad\\Fasfdas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Oliveira da Motta",
+            "email": "gumotta2908@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8"
+    }
+}

@@ -1,0 +1,139 @@
+body,
+.body {
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 100%;
+}
+
+.class {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.comprar-botao,
+a {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #c30000;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
+  width: 300px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto 20px;
+  background-color: #c30000;
+  border-radius: 5px;
+  color: #fff;
+  width: auto; /* Largura automática */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px 12px;
+  max-width: 700px;
+  width: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.item {
+  background: #b3b3b3;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.filmes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filme {
+  width: calc(20% - 20px);
+  height: 620px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #921414;
+  border: 1px solid #140101;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.filme img {
+  max-width: 80%;
+  border-radius: 8px;
+  max-height: 500px;
+  margin: auto;
+}
+
+.comprar-botao:hover,
+.a:hover {
+  background-color: #a10606;
+}
+
+.comprar-botao:active,
+.a:active {
+  background-color: #c30000;
+}
+
+.comprar-botao {
+  width: auto;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #c30000;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+{
+    "nome": "unisc",
+    "disciplinas": [
+        {
+            "nome": "estrutura de dados",
+            "carga_horaria": 60,
+            "array_alunos": [
+                {
+                    "nome": "Gustavo",
+                    "idade": 20,
+                    "matricula": 133856,
+                    "notas": []
+                },
+                {
+                    "nome": "Felipe",
+                    "idade": 21,
+                    "matricula": 32432,
+                    "notas": []
+                }
+            ],
+            "professor": {
+                "nome": "Gilberto",
+                "idade": 45,
+                "disciplinas": [
+                    "estrutura de dados"
+                ]
+            }
+        }
+    ]
+}
